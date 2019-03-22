@@ -1,0 +1,177 @@
+{
+  "defact": [
+    {
+      "id": 1,
+      "Module": "a",
+      "Description": "defect in login",
+      "Stepstorecreate": "c",
+      "Severity": "d",
+      "Priority": "e",
+      "DefectType": "f",
+      "EnteredDate": "g",
+      "Status": "h",
+      "Assignedto": "i",
+      "Fixedby": "j",
+      "FixedDate": "k",
+      "AvailableIn": "l",
+      "Comments": "m"
+    },
+    {
+      "id": 2,
+      "Module": "a",
+      "Description": "defect in button alignment",
+      "Stepstorecreate": "c",
+      "Severity": "d",
+      "Priority": "e",
+      "DefectType": "f",
+      "EnteredDate": "g",
+      "Status": "h",
+      "Assignedto": "i",
+      "Fixedby": "j",
+      "FixedDate": "k",
+      "AvailableIn": "l",
+      "Comments": "m"
+    },
+    {
+      "id": "eknfek",
+      "Module": "en",
+      "Description": "defect in style",
+      "Stepstorecreate": "High",
+      "Severity": "High",
+      "Priority": "UI",
+      "DefectType": "",
+      "EnteredDate": "New",
+      "Status": "Thuvi",
+      "Assignedto": "",
+      "Fixedby": "",
+      "FixedDate": "",
+      "AvailableIn": ""
+    },
+    {
+      "id": "pake",
+      "Module": "fefe",
+      "Description": "defect in add user",
+      "Stepstorecreate": "",
+      "Severity": "High",
+      "Priority": "High",
+      "DefectType": "UI",
+      "EnteredDate": "",
+      "Status": "New",
+      "Assignedto": "Prathepan",
+      "Fixedby": "",
+      "FixedDate": "",
+      "AvailableIn": "",
+      "Comments": ""
+    },
+    {
+      "id": 3,
+      "Module": "",
+      "Description": "defect",
+      "Stepstorecreate": "",
+      "Severity": "High",
+      "Priority": "High",
+      "DefectType": "Functionality",
+      "EnteredDate": "",
+      "Status": "New",
+      "Assignedto": "Prathepan",
+      "Fixedby": "",
+      "FixedDate": "",
+      "AvailableIn": "",
+      "Comments": ""
+    },
+    {
+      "id": 4,
+      "Module": "3",
+      "Description": "defect2",
+      "Stepstorecreate": "",
+      "Severity": "High",
+      "Priority": "High",
+      "DefectType": "UI",
+      "EnteredDate": "",
+      "Status": "New",
+      "Assignedto": "4",
+      "Fixedby": "",
+      "FixedDate": "",
+      "AvailableIn": "",
+      "Comments": ""
+    },
+    {
+      "id": 5,
+      "Module": "1",
+      "Description": "admin",
+      "Stepstorecreate": "",
+      "Severity": "High",
+      "Priority": "High",
+      "DefectType": "UI",
+      "EnteredDate": "",
+      "Status": "New",
+      "Assignedto": "1",
+      "Fixedby": "",
+      "FixedDate": "",
+      "AvailableIn": "",
+      "Comments": ""
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ],
+  "developer": [
+    {
+      "id": 1,
+      "DeveloperName": "pakeeshan",
+      "moduleId": 1,
+      "email": "def@gmail.com",
+      "password": "pass"
+    },
+    {
+      "DeveloperName": "lakshan",
+      "id": 2,
+      "moduleId": 1
+    },
+    {
+      "DeveloperName": "raja",
+      "id": 3,
+      "moduleId": 2
+    },
+    {
+      "DeveloperName": "romi",
+      "id": 4,
+      "moduleId": 3
+    }
+  ],
+  "module": [
+    {
+      "id": 1,
+      "modulename": "usermenu",
+      "assignedfor": "pratheepan"
+    },
+    {
+      "assignedfor": "romi",
+      "id": 2
+    },
+    {
+      "modulename": "admin",
+      "assignedfor": "romi",
+      "id": 3
+    },
+    {
+      "modulename": "login",
+      "assignedfor": "thuvi",
+      "id": 4
+    },
+    {
+      "modulename": "admin",
+      "assignedfor": "thuvi",
+      "id": 5
+    }
+  ],
+  "qa": {
+    "id": 1,
+    "qaname": "Prathepan",
+    "email": "abc@gmail.com",
+    "password": "pass"
+  }
+}

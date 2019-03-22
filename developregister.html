@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Developer Details</title>
+</head>
+
+<body>
+
+    <form>
+
+        <label for="DeveloperName">Developer Name</label>
+        <input type="text" id="DeveloperName">
+
+        <br />
+
+
+    </form>
+    <button id="nameAdd" onclick="addDeveloper()">Add Developer</button>
+
+    <form>
+
+        <label for="modulename">module Name</label>
+        <input type="text" id="modulename">
+        <br />
+        <label for="assignto"> Developer Name</label>
+        <input type="text" id="assignto">
+
+
+        <br />
+    </form>
+    <button id="moduleAdd" onclick="addModule()">Add Module</button>
+
+    <script>
+        // creating object for ajax
+
+
+        function addDeveloper() {
+            var data = JSON.stringify({
+
+                DeveloperName: document.getElementById("DeveloperName").value
+            });
+            var xhr = new XMLHttpRequest();
+            console.log(xhr);
+            xhr.open("POST", "http://localhost:3000/developer")
+            xhr.setRequestHeader("Content-type", "application/json");
+            xhr.send(data);
+        }
+
+
+        function addModule() {
+            var data = JSON.stringify({
+
+                modulename: document.getElementById("modulename").value,
+                // DeveloperName: document.getElementById("DeveloperName").value
+                assignedfor: document.getElementById("assignto").value
+            });
+            var xhr = new XMLHttpRequest();
+            console.log(xhr);
+            xhr.open("POST", "http://localhost:3000/module")
+            xhr.setRequestHeader("Content-type", "application/json");
+            xhr.send(data);
+        }
+    </script>
+</body>
+
+</html>
